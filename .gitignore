@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*-correction*.ipynb
+*-correction*.html
+/.ipynb_metadata/
+
+# Data and Models (Use DVC for proper versioning of these!)
+data/
+models/
+results/
+mlruns/ # If you use MLflow
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.pth
+*.pt
+*.pb
+*.csv # Only ignore if these are large generated files
+*.tsv
+*.parquet
+*.hdf5
+*.feather
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.bak
+temp/
+logs/
+
+# IDE and OS specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Environment Variables and Sensitive Information
+.env
+config.ini # If contains sensitive data
+secrets.py
