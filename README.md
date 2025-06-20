@@ -52,7 +52,7 @@ An AI-driven recommendation system for e-commerce platforms. This project integr
 # Clone the repository
 git clone https://github.com/mustafataha5/smart-ecommerce-ai-recommender.git
 cd smart-ecommerce-ai-recommender
-```
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -61,6 +61,8 @@ pip install -r requirements.txt
 # Run the Flask API
 cd server
 python app.py
+
+```
 ## 📷 Demo
 
 ### 🎯 Customer Demographics
